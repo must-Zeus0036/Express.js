@@ -17,4 +17,6 @@ How to set up an Express Server.
         console.log('Started on port 3000');
     });
     - host 3000 in my device to check it we write in our browser [localhost3000/hello].
+    - To run the Express Server we use this commando in VS terminal [node app.js]
     - next step install a new package to avoide stop the Express Server each time we need to change something, to sloving this problem we can install package [npm i nodemon].
+    - To GET, POST, Remove data to our arraylist in app.js we can use postman, install postman from https://www.postman.com/downloads/
