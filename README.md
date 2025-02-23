@@ -1,6 +1,6 @@
 How to set up an Express Server.
 * Build a simple Express Server.
-* Create routes and handlers ( routes are URLs user, Handlers are functions that repoonds to these requests.
+* Create routes and handlers ( routes are URLs user, Handlers are functions that repoonds to these requests).
 * Create logging middleware ( middleware is code that runs before a request reaches it's final handlers).
 * Code JSON is working for any Application and used it to show the contain of any Application in Frontend.
 * Express is API Framework to JavaScript (like Backend Framwork)
