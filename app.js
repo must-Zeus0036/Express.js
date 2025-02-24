@@ -6,7 +6,7 @@ const app = express();
 // Middleware to parse JSON and URL-encoded form data
 app.use(express.json());
 
-const db = mysql.createConnection({
+const db = mysql.createConnection({ // connection to the database
     host: 'localhost',
     user: 'root',
     password: '0000',
@@ -21,7 +21,7 @@ db.connect((err) => {
     console.log('Connected to database');
 });
 
-app.use(express.urlencoded({ extended: true }));
+app.use(express.urlencoded({ extended: true })); //using middleware to parse the data
 
 // Define the users array
 const users = [];
@@ -46,7 +46,7 @@ app.get('/users', (req, res) => {
 app.post('/users', (req, res) => {
     const { id, name, age } = req.body;
     if (!id || !name || !age) {
-        res.status(400).send('ID, name, and age are required');
+        res.status(407).send('ID, name, and age are required');
         return;
     }
 
@@ -104,7 +104,7 @@ app.delete('/users/:id', (req, res) => {
             res.status(404).send('User not found in array');
             return;
         }
-        users.splice(finduserIndex, 1);
+        users.splice(finduserIndex, 1); // Remove the user from the array
 
         // Log the updated state of the users array
         console.log('Users after deletion:', users);
