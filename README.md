@@ -9,7 +9,7 @@ How to set up an Express Server :robot:
   - To install Express Server you should to install Node.js.
   - Open VS then open Terminal and install npm by writting this commando [npm init -y] node package manager.
   - Create a file package.json with code, by this code I can install an Express.
-  - From the expressjs.com I take this commando [npm install express --save] and run it in VS terminal and then we install Express.
+  - From the https://expressjs.com/ I take this commando [npm install express --save] and run it in VS terminal and then we install Express.
   - Create a new file in VS app.js this file refer to my Application in Express.
   - We shall write code in app.js check this file in my project.
   - To run app.js we write in terminal this commando [node app.js].
