@@ -6,7 +6,7 @@ How to set up an Express Server :robot:
 * Express is API Framework to JavaScript (like Backend Framwork)
 
 
-  - To install Express Server you should to install Node.js.
+  - To install Express Server you should to install Node.js from the website https://nodejs.org/en .After installation, open your terminal (Command Prompt, PowerShell, or VS Code terminal) and check if Node.js is installed by running:[node -v].
   - Open VS then open Terminal and install npm by writting this commando [npm init -y] node package manager.
   - Create a file package.json with code, by this code I can install an Express.
   - From the https://expressjs.com/ I take this commando [npm install express --save] and run it in VS terminal and then we install Express.
